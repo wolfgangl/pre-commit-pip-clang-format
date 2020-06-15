@@ -1,0 +1,7 @@
+-   id: clang-format
+    name: clang-format
+    entry: clang-format
+    files: \.(c|cc|cpp|cu|h|hh|hpp|proto)$
+    language: python
+    description: Use pip installable version of clang-format
+    args: ['-i']
